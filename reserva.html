@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reserva</title>
+    <link rel="stylesheet" href="css/reserva.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <div id="container">
+        <div id="lugar"> 
+            <div id="escolha">
+                <div id="esquerdo">
+                    <div id="p1" class="poltrona" onclick=" poltrona('1')" >1</div>
+                    <div  class="poltrona" onclick="poltrona('2')">2</div>
+                    <div class="poltrona" onclick="poltrona('5')">5</div>
+                    <div class="poltrona"onclick="poltrona('6')">6</div>
+                    <div class="poltrona" onclick="poltrona('9')">9</div>
+                    <div class="poltrona" onclick="poltrona('10')">10</div>
+                    <div class="poltrona" onclick="poltrona('13')">13</div>
+                    <div class="poltrona" onclick="poltrona('14')">14</div>
+                    <div class="poltrona" onclick="poltrona('17')">17</div>       
+                    <div class="poltrona" onclick="poltrona('18')">18</div>
+                    <div class="poltrona" onclick="poltrona('21')">21</div>
+                    <div class="poltrona" onclick="poltrona('22')">22</div>
+                    <div class="poltrona" onclick="poltrona('25')">25</div>
+                    <div class="poltrona" onclick="poltrona('26')">26</div>
+                    <div class="poltrona" onclick="poltrona('29')">29</div>
+                    <div class="poltrona" onclick="poltrona('30')">30</div>
+                    <div class="poltrona" onclick="poltrona('33')">33</div>
+                    <div class="poltrona" onclick="poltrona('34')">34</div>
+                </div>
+               
+                <div id="direito">
+                    <div class="poltrona" onclick="poltrona('3')">3</div>
+                    <div class="poltrona" onclick="poltrona('4')">4</div>
+                    <div class="poltrona" onclick="poltrona('7')">7</div>
+                    <div class="poltrona" onclick="poltrona('8')">8</div>
+                    <div class="poltrona" onclick="poltrona('11')">11</div>
+                    <div class="poltrona" onclick="poltrona('12')">12</div>
+                    <div class="poltrona" onclick="poltrona('15')">15</div>
+                    <div class="poltrona" onclick="poltrona('16')">16</div>
+                    <div class="poltrona" onclick="poltrona('19')">19</div>
+                    <div class="poltrona" onclick="poltrona('20')">20</div>
+                    <div class="poltrona" onclick="poltrona('23')">23</div>
+                    <div class="poltrona" onclick="poltrona('24')">24</div>
+                    <div class="poltrona" onclick="poltrona('27')">27</div>
+                    <div class="poltrona" onclick="poltrona('28')">28</div>
+                    <div class="poltrona" onclick="poltrona('31')">31</div>
+                    <div class="poltrona" onclick="poltrona('32')">32</div>
+                    <div id="porta-mala">WC</div>
+                </div>
+            </div>
+        </div>
+        <!-- começo nota-->
+        <div id="nota"> 
+
+            <div id="nota-fiscal"><!--- inicio  nota fiscal-->
+                
+                <div class="dados">
+                    <ul>
+                        <li>Nome: </li>
+                        <li id="nome"></li>
+                    </ul>
+                </div>
+                <div class="dados">
+                    <ul>
+                        <li>Origem: </li>
+                        <li id="origem"></li>
+                    </ul>
+                </div>
+                <div class="dados">
+                    <ul>
+                        <li>Destino: </li>
+                        <li id="destino"></li>
+                    </ul>
+                </div>
+                <div class="dados">
+                    <ul>
+                        <li>Data: </li>
+                        <li id="data"></li>
+                    </ul>
+                </div>
+                <div class="dados">
+                    <ul>
+                        <li>Hora: </li>
+                        <li id="hora"></li>
+                    </ul>
+                </div>
+                <div class="dados">
+                    <ul>
+                        <li>Poltrona: </li>
+                        <li id="poltrona" class="dado"></li>
+                    </ul>
+                </div>
+                <div class="dados">
+                    <ul>
+                        <li>Tarifa: </li>
+                        <li id="tarifa"></li>
+                    </ul>
+                </div>
+                
+                </div><!-- fim nota fiscal-->
+                
+                
+
+        </div><!-- fim nnota-->
+
+    </div>
+
+    <script src="reserva.js"></script>
+    
+</body>
+</html>

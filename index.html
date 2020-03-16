@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TicketBus</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+</head>
+<body>
+    <div id="container"><!-- inicio container-->
+        <div id="centro"><!-- inicio centro-->
+            <div id="titulo">
+                <h1>TicketBus</h1>
+            </div>
+
+            <fieldset id="form">
+                <form action="">
+                    <div class="form">
+                    <label for="nome"> Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    </div>
+
+                    <div class="form">
+                    <label for="origem">Origem</label>
+                    <select name="origem" id="origem">
+                        <option value = " Nova Andradina " > Nova Andradina </option >
+                        <option value = " Ivinhema " > Ivinhema </option>
+                        <option  value = " Batayporã " > Batayporã </option>
+                    </select>
+                    </div>
+
+                    <div class="form">
+                    <label for="destino">Destino</label>
+                    <select name="destino" id="destino">
+                        <option value = " Nova Andradina " > Nova Andradina </option >
+                        <option value = " Ivinhema " > Ivinhema </option>
+                        <option  value = " Batayporã " > Batayporã </option>
+                    </select>
+                    </div>
+
+                    <div class="form">
+                      <a href="reserva.html"> <input type="button" id="reservar" value="Reservar" onclick="reserva()"></a> 
+                    </div>
+                </form>
+            </fieldset>
+        </div><!-- fim centro-->
+    </div><!-- fim container-->
+    
+    <script src="reserva.js"></script>
+
+</body>
+</html>
